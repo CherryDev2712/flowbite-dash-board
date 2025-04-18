@@ -29,7 +29,8 @@
     "start:dev:webpack": "webpack --mode=development --watch",
     "build": "run-s build:webpack",
     "build:webpack": "webpack --mode=production",
-    "build:css": "tailwindcss build -i src/style.css -o static/app.css"
+    "build:css": "tailwindcss build -i src/style.css -o static/app.css",
+    "init": "nodemon app.js"
   },
   "devDependencies": {
     "apexcharts": "^3.41.0",
